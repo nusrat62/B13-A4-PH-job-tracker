@@ -66,3 +66,4 @@ function switchTab(tab) {
     document.getElementById(`tab-${tab}`).classList.add('active');
     render();
 }
+render();
