@@ -34,11 +34,11 @@ Example: document.querySelectorAll(".item");
 
 2. How do you create and insert a new element into the DOM?
 Ans: 
-To create and insert a new element, first use createElement() to create it, then add content or attributes, and finally insert it into the DOM using methods like appendChild() or append().
+## To create and insert a new element, first use createElement() to create it, then add content or attributes, and finally insert it into the DOM using methods like appendChild() or append().
 Example: 
-const p = document.createElement("p");
-p.textContent = "This is a new paragraph.";
-document.body.appendChild(p);
+## const p = document.createElement("p");
+## p.textContent = "This is a new paragraph.";
+## document.body.appendChild(p);
 
 
 3. What is Event Bubbling? And how does it work?
